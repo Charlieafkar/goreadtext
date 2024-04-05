@@ -22,3 +22,11 @@
             document.getElementById('main').style.marginLeft = '0';
         }
     </script>
+
+<script>
+function textToSpeech2() {
+    var textInput = document.getElementById("textInput").value;
+    var speedInput = document.getElementById("speedInput").value;
+    responsiveVoice.speak(textInput, "Arabic Male", {rate: speedInput});
+}
+</script>
