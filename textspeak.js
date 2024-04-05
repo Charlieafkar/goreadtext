@@ -24,7 +24,7 @@
     </script>
 
 <script>
-function textToSpeech2() {
+function textToSpeechspeed() {
     var textInput = document.getElementById("textInput").value;
     var speedInput = document.getElementById("speedInput").value;
     responsiveVoice.speak(textInput, "US English Female", {rate: speedInput});
