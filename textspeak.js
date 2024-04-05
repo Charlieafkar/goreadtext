@@ -27,6 +27,6 @@
 function textToSpeech2() {
     var textInput = document.getElementById("textInput").value;
     var speedInput = document.getElementById("speedInput").value;
-    responsiveVoice.speak(textInput, "Arabic Male", {rate: speedInput});
+    responsiveVoice.speak(textInput, "US English Female", {rate: speedInput});
 }
 </script>
