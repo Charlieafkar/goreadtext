@@ -22,9 +22,3 @@
             document.getElementById('main').style.marginLeft = '0';
         }
     </script>
-
-<script>
-    <button onclick="textToSpeech()">Convert to Speech</button>
-    <textarea id="textInput" placeholder="Enter text..."></textarea>
-    <script src="https://code.responsivevoice.org/responsivevoice.js?key=WGg7kisl"></script>
-</script>
