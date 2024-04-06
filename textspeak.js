@@ -24,9 +24,7 @@
     </script>
 
 <script>
-function textToSpeechspeed() {
-    var textInput = document.getElementById("textInput").value;
-    var speedInput = document.getElementById("speedInput").value;
-    responsiveVoice.speak(textInput, "US English Female", {rate: speedInput});
-}
+    <button onclick="textToSpeech()">Convert to Speech</button>
+    <textarea id="textInput" placeholder="Enter text..."></textarea>
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=WGg7kisl"></script>
 </script>
