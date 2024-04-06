@@ -3,40 +3,6 @@
 
 <head>
     <title></title>
-    <style>
-        #textInput {
-            width: 680px;
-            height: 400px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: auto;
-            margin-bottom: auto;
-        }
-
-        button {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: auto;
-            margin-bottom: auto;
-        }
-
-        #languageSelector {
-            text-align: center;
-            margin-top: 10px;
-        }
- #speedInput  {
-            margin-top: 9px;
-            margin-bottom: auto;
-            margin-left: 707px;
-            margin-right: auto;
-            display: block;
-            width: 100px;  
-            height: 10px;
-            background-color: green;
-        }
-        </style>
 </head>
 
      <script src="textspeak.js"></script>
@@ -83,7 +49,6 @@
     </div>
 
     <button onclick="textToSpeech()">Convert to Speech</button>
-    <input type="number" id="speedInput" placeholder="Enter speed..." min="0.1" step="0.1" value="1">
     <textarea id="textInput" placeholder="Enter text..."></textarea>
     <script src="https://code.responsivevoice.org/responsivevoice.js?key=WGg7kisl"></script>
 </body>
