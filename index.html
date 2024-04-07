@@ -1,13 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <script src="" type="javascript">>
+            
+        </script>
+        <style>
+        #textInput {
+            width: 680px;
+            height: 400px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
 
-<head>
-    <title></title>
-    <link href="textspeak.css" rel="stylesheet">
-</head>
+        button {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
 
-     <script src="textspeak.js"></script>
-<body>
+        #languageSelector {
+            text-align: center;
+            margin-top: 10px;
+        }
+        </style>
+    </head>
+    <body>
     <div id="sidebar">
         <a href="javascript:void(0)" onclick="closeSidebar()">Close</a>
         <a href="#">Link 1</a>
@@ -32,7 +58,7 @@
     </script>
     <div id="languageSelector">
         <label>
-            <input type="radio" name="language" value="Arabic Female" checked>
+            <input type="radio" name="language" value="Arabic Female" checked="">
             Arabic
         </label>
         <label>
@@ -48,12 +74,10 @@
             Spanish
         </label>
     </div>
-    <script>
-    <button onclick="textToSpeech()">Convert to Speech</button>
+
+    <button onclick="textToSpeech();textToSpeech2()" >Convert to Speech</button>
     <textarea id="textInput" placeholder="Enter text..."></textarea>
     <script src="https://code.responsivevoice.org/responsivevoice.js?key=WGg7kisl"></script>
-</script>
-    <script src="textspeak.js"></script>
+    <script>
 </body>
-
 </html>
